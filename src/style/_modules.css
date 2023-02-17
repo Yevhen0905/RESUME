@@ -1,0 +1,139 @@
+.contact_img {
+  max-width: 270px;
+  height: 270px;
+  width: 100%;
+  background-image: url(../img/my_foto.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin: 0 auto 20px;
+  box-shadow: 10px 10px 50px -10px rgba(0, 0, 0, 0.4);
+}
+
+.contact_item {
+  margin-bottom: 9px;
+}
+
+.my_contact, .tech_skill, .soft_skill, .block_language {
+  margin-bottom: 35px;
+}
+
+.contact_text {
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.contact_link {
+  font-size: 18px;
+  color: #bcbaba;
+}
+
+.list_item {
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.list_item .list_item_text {
+  color: #fff;
+}
+
+.block_language_text {
+  margin-bottom: 9px;
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.language_text_item {
+  font-size: 18px;
+  color: #bcbaba;
+  font-weight: 400;
+}
+
+.title_name {
+  font-size: 45px;
+  line-height: 53px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  margin-bottom: 15px;
+}
+
+.title_specialty {
+  font-size: 23px;
+  line-height: 25px;
+  font-weight: 900;
+  margin-bottom: 40px;
+  letter-spacing: 0.05em;
+  text-transform: capitalize;
+}
+
+.about_text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #5b5757;
+  font-style: italic;
+}
+
+.about, .my_project, .work_experience {
+  margin-bottom: 25px;
+}
+
+.project_list_item {
+  font-size: 14px;
+  line-height: 17px;
+  color: #5b5757;
+  margin-bottom: 9px;
+}
+
+.list_years {
+  margin-bottom: 5px;
+  display: inline-block;
+  color: #a09999;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+}
+
+.list_title {
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 18px;
+}
+.list_title .list_position {
+  color: #0a0a0a;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.experience_block {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experience_desc {
+  margin-bottom: 9px;
+}
+
+.experience_list, .education_block {
+  margin-bottom: 30px;
+}
+
+.experience_list_desc {
+  margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5b5757;
+}
+
+.education_text_specialty {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 600;
+  font-style: italic;
+  color: #0a0a0a;
+}
