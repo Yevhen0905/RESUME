@@ -16,7 +16,7 @@ body {
   max-width: 360px;
   width: 100%;
   padding: 30px 20px;
-  background-color: #746e60de;
+  background-color: #4e3434;
   color: #fff;
 }
 
@@ -28,10 +28,10 @@ body {
 }
 
 .title {
-  border-bottom: 2px solid;
+  border-bottom: 3px solid;
   padding-bottom: 5px;
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 32px;
   font-weight: bold;
   font-style: normal;
@@ -44,6 +44,7 @@ body {
   margin-right: 10px;
 }
 
-.sidebar_name, .sidebar_specialty {
+.sidebar_name,
+.sidebar_specialty {
   display: none;
 }
