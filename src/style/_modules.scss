@@ -13,7 +13,9 @@
 }
 
 .contact_item {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
 }
 
 .my_contact,
@@ -27,11 +29,17 @@
   font-size: 15px;
   line-height: 18px;
   font-weight: 600;
+  display: block;
 }
 
 .contact_link {
   font-size: 18px;
   color: #bcbaba;
+  display: block;
+}
+
+.list {
+  padding-left: 24px;
 }
 
 .list_item {
@@ -120,6 +128,7 @@
 .position_indent {
   margin-top: 3px;
   display: inline-block;
+  line-height: 1.2;
 }
 
 .experience_block {

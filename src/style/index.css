@@ -105,13 +105,14 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #fff;
+  overflow: hidden;
 }
 
 .sidebar {
   max-width: 360px;
   width: 100%;
   padding: 30px 20px;
-  background-color: #4e3434;
+  background-color: #875f5f;
   color: #fff;
 }
 
@@ -159,7 +160,9 @@ body {
 }
 
 .contact_item {
-  margin-bottom: 9px;
+  margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
 }
 
 .my_contact,
@@ -173,11 +176,17 @@ body {
   font-size: 15px;
   line-height: 18px;
   font-weight: 600;
+  display: block;
 }
 
 .contact_link {
   font-size: 18px;
   color: #bcbaba;
+  display: block;
+}
+
+.list {
+  padding-left: 24px;
 }
 
 .list_item {
@@ -264,6 +273,7 @@ body {
 .position_indent {
   margin-top: 3px;
   display: inline-block;
+  line-height: 1.2;
 }
 
 .experience_block {
@@ -307,14 +317,16 @@ body {
   transform: scale(1.02);
 }
 
-@media screen and (max-width: 768px) {
-  body, html {
-    overflow-x: auto;
-    width: 100%;
-  }
-
+@media screen and (max-width: 1040px) {
   .hero {
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  body,
+html {
+    overflow-x: auto;
+    width: 100%;
   }
 
   .sidebar {
@@ -331,7 +343,13 @@ body {
     letter-spacing: 0.01em;
   }
 
-  .contact_text, .list_item, .block_language_text, .language_text_item, .about_text, .project_list_item, .experience_list_desc {
+  .contact_text,
+.list_item,
+.block_language_text,
+.language_text_item,
+.about_text,
+.project_list_item,
+.experience_list_desc {
     font-size: 12px;
     line-height: 14px;
   }
@@ -389,11 +407,13 @@ body {
     width: 100%;
   }
 
-  .sidebar_name, .sidebar_specialty {
+  .sidebar_name,
+.sidebar_specialty {
     display: block;
   }
 
-  .content_name, .content_specialty {
+  .content_name,
+.content_specialty {
     display: none;
   }
 }

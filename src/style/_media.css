@@ -1,11 +1,13 @@
-@media screen and (max-width: 768px) {
-  body, html {
-    overflow-x: auto;
-    width: 100%;
-  }
-
+@media screen and (max-width: 1040px) {
   .hero {
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  body,
+html {
+    overflow-x: auto;
+    width: 100%;
   }
 
   .sidebar {
@@ -22,7 +24,13 @@
     letter-spacing: 0.01em;
   }
 
-  .contact_text, .list_item, .block_language_text, .language_text_item, .about_text, .project_list_item, .experience_list_desc {
+  .contact_text,
+.list_item,
+.block_language_text,
+.language_text_item,
+.about_text,
+.project_list_item,
+.experience_list_desc {
     font-size: 12px;
     line-height: 14px;
   }
@@ -80,11 +88,13 @@
     width: 100%;
   }
 
-  .sidebar_name, .sidebar_specialty {
+  .sidebar_name,
+.sidebar_specialty {
     display: block;
   }
 
-  .content_name, .content_specialty {
+  .content_name,
+.content_specialty {
     display: none;
   }
 }
