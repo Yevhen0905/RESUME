@@ -112,7 +112,7 @@ body {
   max-width: 360px;
   width: 100%;
   padding: 30px 20px;
-  background-color: #875f5f;
+  background-color: #745252;
   color: #fff;
 }
 
@@ -266,7 +266,7 @@ body {
 
 .list_position {
   color: #0a0a0a;
-  font-size: 19px;
+  font-size: 15px;
   font-style: italic;
 }
 
@@ -384,8 +384,12 @@ html {
   }
 
   .list_title {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 14px;
+  }
+
+  .experience_desc {
+    font-size: 12px;
   }
 
   .list_title .list_position {

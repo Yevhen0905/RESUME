@@ -65,8 +65,12 @@ html {
   }
 
   .list_title {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 14px;
+  }
+
+  .experience_desc {
+    font-size: 12px;
   }
 
   .list_title .list_position {
