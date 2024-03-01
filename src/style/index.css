@@ -112,7 +112,7 @@ body {
   max-width: 360px;
   width: 100%;
   padding: 30px 20px;
-  background-color: #9b5656;
+  background-color: #965d5d;
   color: #fff;
 }
 
@@ -223,7 +223,7 @@ body {
   font-size: 43px;
   line-height: 25px;
   font-weight: 900;
-  margin: 0 0 20px 0;
+  margin: 20px 0;
   letter-spacing: 0.05em;
   text-transform: capitalize;
 }
