@@ -112,7 +112,7 @@ body {
   max-width: 360px;
   width: 100%;
   padding: 30px 20px;
-  background-color: #945f5f;
+  background-color: #9b5656;
   color: #fff;
 }
 
@@ -120,7 +120,7 @@ body {
   max-width: 840px;
   width: 100%;
   padding: 40px 20px 32px;
-  color: #0a0a0a;
+  color: #3a3535;
 }
 
 .title {
@@ -211,19 +211,19 @@ body {
 }
 
 .title_name {
-  font-size: 45px;
+  font-size: 31px;
   line-height: 53px;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0.05em;
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 
 .title_specialty {
-  font-size: 28px;
+  font-size: 43px;
   line-height: 25px;
   font-weight: 900;
-  margin-bottom: 40px;
+  margin: 0 0 20px 0;
   letter-spacing: 0.05em;
   text-transform: capitalize;
 }
