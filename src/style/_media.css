@@ -117,5 +117,10 @@ html {
     display: block;
     text-align: center;
     font-size: 31px;
+    font-weight: 700;
+  }
+
+  .title_name.small_screen {
+    font-weight: 400;
   }
 }
