@@ -306,6 +306,10 @@ body {
   color: #0a0a0a;
 }
 
+.small_screen {
+  display: none;
+}
+
 .contact_link:hover {
   color: #eba58e;
   transform: scale(1.02);
@@ -319,6 +323,17 @@ body {
 @media screen and (max-width: 1040px) {
   .hero {
     margin: 0 auto;
+  }
+
+  .title_specialty {
+    font-size: 35px;
+    margin: 20px 0 10px;
+    letter-spacing: 0.02em;
+  }
+}
+@media screen and (max-width: 810px) {
+  .title_specialty {
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -350,7 +365,7 @@ html {
 .project_list_item,
 .experience_list_desc {
     font-size: 12px;
-    line-height: 14px;
+    line-height: 17px;
   }
 
   .contact_link {
@@ -368,12 +383,12 @@ html {
   }
 
   .title_name {
-    font-size: 33px;
+    font-size: 30px;
     line-height: 38px;
   }
 
   .title_specialty {
-    font-size: 19px;
+    font-size: 26px;
     line-height: 21px;
   }
 
@@ -418,5 +433,11 @@ html {
   .content_name,
 .content_specialty {
     display: none;
+  }
+
+  .small_screen {
+    display: block;
+    text-align: center;
+    font-size: 31px;
   }
 }
