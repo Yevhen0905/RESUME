@@ -310,6 +310,11 @@ body {
   display: none;
 }
 
+.link_portfolio {
+  font-weight: 700;
+  color: #b02323;
+}
+
 .contact_link:hover {
   color: #eba58e;
   transform: scale(1.02);

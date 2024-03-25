@@ -162,3 +162,8 @@
 .small_screen {
   display: none;
 }
+
+.link_portfolio {
+  font-weight: 700;
+  color: #b02323;
+}
